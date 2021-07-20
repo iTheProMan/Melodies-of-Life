@@ -9,6 +9,7 @@ color: brown;
 }
 body img{
     height: 220px;
+    margin: 2%;
 }
 img:hover{
     scale: 2em;
