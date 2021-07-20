@@ -31,6 +31,7 @@ body p:hover{
     color: rgb(255, 234, 43);
     transform: scale(200%);
     transition: 2s;
+    max-width: 100%;
 }
 .imgedit img{
    /* width: 95%; */
@@ -117,6 +118,7 @@ Mobile
     .principal p:hover{
         transform: scale(120%);
         transition: 2s;
+        
     }
     body p:hover{
         color: rgb(255, 234, 43);
@@ -140,3 +142,20 @@ Mobile
     }
 }
 
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+ 
+     
+            .principal p{
+                font-size: 28px;
+            }
+            .principal p:hover{
+                transform: scale(120%);
+                transition: 2s;
+            }
+            body p:hover{
+                color: rgb(255, 234, 43);
+                transform: scale(140%);
+                transition: 2s;
+            }
+
+    }
