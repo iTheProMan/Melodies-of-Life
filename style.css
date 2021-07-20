@@ -2,15 +2,26 @@ body{
     text-align: center;
     font-size: 24px;
     font-weight: 500;
-    background-color: aquamarine;
+    background-color: rgba(238, 209, 130, 0.589);
+    color: blue;
 }
 body p{
-color: brown;
+color: rgb(66, 6, 6);
+}
+body p:hover{
+    color: rgb(0, 60, 255);
+    transform: scale(120%);
+    transition: 1s;
 }
 body img{
     height: 220px;
     margin: 2%;
+    border-radius: 20px;
+}
+h1:hover{
+    color: rgb(44, 221, 153);
 }
 img:hover{
-    scale: 2em;
+    transform: scale(120%);
+    transition: 2s;
 }
