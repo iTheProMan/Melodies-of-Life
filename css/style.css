@@ -1,6 +1,6 @@
 /* -------imports------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 /* -----header--- */
 header{
     background-color: black;
@@ -18,8 +18,7 @@ main{
     color: blue;
     margin: 0;
     padding: 15px;
-    font-family: 'Dancing Script', cursive;
-font-family: 'Festive', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 main:hover{
     background-image: linear-gradient(rgba(0, 81, 255, 0.637),rgb(0, 183, 255));
