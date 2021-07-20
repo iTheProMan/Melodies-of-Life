@@ -1,33 +1,49 @@
 /* -------imports------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Festive&display=swap');
-
+/* -----header--- */
+header{
+    background-color: black;
+}
 /* ---basic----- */
-
 body{
+    margin: 0;
+    padding: 0;
+}
+main{
     text-align: center;
     font-size: 24px;
     font-weight: 500;
     background-color: rgba(238, 209, 130, 0.589);
     color: blue;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     font-family: 'Dancing Script', cursive;
 font-family: 'Festive', cursive;
 }
-body:hover{
-   
+main:hover{
     background-image: linear-gradient(rgba(0, 81, 255, 0.637),rgb(0, 183, 255));
 }
-body p{
+h1{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: peru;
+}
+a:hover{
+    color: brown;
+}
+main p{
 color: rgb(66, 6, 6);
 font-size: 38px;
+margin: 0;
 }
 .principal p:hover{
     transform: scale(120%);
     transition: 2s;
 }
-body p:hover{
+main p:hover{
     color: rgb(255, 234, 43);
     transform: scale(200%);
     transition: 2s;
@@ -46,6 +62,20 @@ img:hover{
     transform: scale(120%);
     transition: 2s;
 }
+/* -----footer--- */
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: white;
+}
 /* ---------------------------
 media query
 --------------------------- */
@@ -55,18 +85,18 @@ Mobile
 --------------------------- */
 @media only screen and (max-width: 600px) {
 
-    body{
+    main{
         text-align: center;
         font-size: 20px;
         font-weight: 500;
         background-color: rgba(238, 209, 130, 0.589);
         color: blue;
     }
-    body:hover{
+    main:hover{
        
         background-image: linear-gradient(rgba(0, 81, 255, 0.637),rgb(0, 183, 255));
     }
-    body p{
+    main p{
     color: rgb(66, 6, 6);
     font-size: 20px;
     }
@@ -77,7 +107,7 @@ Mobile
         transform: scale(120%);
         transition: 2s;
     }
-    body p:hover{
+    main p:hover{
         color: rgb(255, 234, 43);
         transform: scale(140%);
         transition: 2s;
@@ -97,18 +127,18 @@ Mobile
 }
 @media only screen and (max-width: 350px) {
     
-    body{
+    main{
         text-align: center;
         font-size: 20px;
         font-weight: 500;
         background-color: rgba(238, 209, 130, 0.589);
         color: blue;
     }
-    body:hover{
+    main:hover{
        
         background-image: linear-gradient(rgba(0, 81, 255, 0.637),rgb(0, 183, 255));
     }
-    body p{
+    main p{
     color: rgb(66, 6, 6);
     font-size: 15px;
     }
@@ -120,7 +150,7 @@ Mobile
         transition: 2s;
         
     }
-    body p:hover{
+    main p:hover{
         color: rgb(255, 234, 43);
         transform: scale(120%);
         transition: 2s;
@@ -152,7 +182,7 @@ Mobile
                 transform: scale(120%);
                 transition: 2s;
             }
-            body p:hover{
+            main p:hover{
                 color: rgb(255, 234, 43);
                 transform: scale(140%);
                 transition: 2s;
