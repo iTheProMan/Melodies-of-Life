@@ -1,11 +1,6 @@
 /* -------imports------ */
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 /* -----header--- */
 header{
     background-color: black;
@@ -14,8 +9,8 @@ header{
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Teko',sans-serif;
 }
+/* --------main-section------- */
 main{
     text-align: center;
     font-size: 24px;
@@ -24,12 +19,12 @@ main{
     color: blue;
     margin: 0;
     padding: 15px;
-   
+    font-family: 'Dosis', sans-serif;
 }
 main:hover{
-    background-image: linear-gradient(rgba(0, 81, 255, 0.637),rgb(0, 183, 255));
+    background-image: linear-gradient(rgba(0, 26, 255, 0.651),rgba(0, 183, 255, 0.801));
 }
-h1{
+main h1{
     margin: 0;
 }
 a{
@@ -60,7 +55,7 @@ main p:hover{
     /* margin: 2%; */
     border-radius: 20px;
 }
-h1:hover{
+main h1:hover{
     color: rgb(44, 221, 153);
 }
 img:hover{
@@ -77,6 +72,7 @@ footer{
 }
 footer p{
     margin: 0;
+    font-size: 12px;
 }
 footer a{
     color: white;
@@ -122,14 +118,13 @@ Mobile
 
         border-radius: 20px;
     }
-    h1:hover{
-        color: rgb(44, 221, 153);
-    }
+
     img:hover{
         transform: scale(120%);
         transition: 2s;
     }
 }
+/* ----------low-end-mobile---------- */
 @media only screen and (max-width: 350px) {
     
     main{
@@ -167,7 +162,7 @@ Mobile
         /* margin: 2%; */
         border-radius: 20px;
     }
-    h1:hover{
+    main h1:hover{
         color: rgb(6, 124, 79);
     }
     img:hover{
@@ -176,7 +171,7 @@ Mobile
         max-width: 100%;
     }
 }
-
+/* ----------Tablet-Mode---------- */
 @media only screen and (min-width: 601px) and (max-width: 990px) {
  
      
